@@ -14,6 +14,9 @@
 		BA2C98DA1C743AFF003235F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA2C98D91C743AFF003235F6 /* Assets.xcassets */; };
 		BA2C98DD1C743AFF003235F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA2C98DB1C743AFF003235F6 /* LaunchScreen.storyboard */; };
 		BA2C98E81C743AFF003235F6 /* yowbowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA2C98E71C743AFF003235F6 /* yowbowTests.m */; };
+		BA2D6F821C7485B700AB6C94 /* HomeTopViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA2D6F811C7485B700AB6C94 /* HomeTopViewCell.xib */; };
+		BA2D6F851C74878300AB6C94 /* HomeTopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA2D6F841C74878300AB6C94 /* HomeTopViewController.m */; };
+		BA558B8B1C74825700CFF3E9 /* ReportTopViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA558B8A1C74825700CFF3E9 /* ReportTopViewCell.xib */; };
 		BA9504051C744B74009AAB2E /* HomeTopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA9504041C744B74009AAB2E /* HomeTopView.xib */; };
 		BA9504071C744BD1009AAB2E /* MenuTopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA9504061C744BD1009AAB2E /* MenuTopView.xib */; };
 		BA9504091C744BF4009AAB2E /* SettingTopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA9504081C744BF4009AAB2E /* SettingTopView.xib */; };
@@ -53,6 +56,10 @@
 		BA2C98E31C743AFF003235F6 /* yowbowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yowbowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA2C98E71C743AFF003235F6 /* yowbowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = yowbowTests.m; sourceTree = "<group>"; };
 		BA2C98E91C743AFF003235F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA2D6F811C7485B700AB6C94 /* HomeTopViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeTopViewCell.xib; sourceTree = "<group>"; };
+		BA2D6F831C74878300AB6C94 /* HomeTopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTopViewController.h; sourceTree = "<group>"; };
+		BA2D6F841C74878300AB6C94 /* HomeTopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTopViewController.m; sourceTree = "<group>"; };
+		BA558B8A1C74825700CFF3E9 /* ReportTopViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReportTopViewCell.xib; sourceTree = "<group>"; };
 		BA9504041C744B74009AAB2E /* HomeTopView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeTopView.xib; sourceTree = "<group>"; };
 		BA9504061C744BD1009AAB2E /* MenuTopView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuTopView.xib; sourceTree = "<group>"; };
 		BA9504081C744BF4009AAB2E /* SettingTopView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingTopView.xib; sourceTree = "<group>"; };
@@ -144,6 +151,8 @@
 			children = (
 				BA2C98D31C743AFF003235F6 /* ViewController.h */,
 				BA2C98D41C743AFF003235F6 /* ViewController.m */,
+				BA2D6F831C74878300AB6C94 /* HomeTopViewController.h */,
+				BA2D6F841C74878300AB6C94 /* HomeTopViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -159,6 +168,7 @@
 			isa = PBXGroup;
 			children = (
 				BA9504041C744B74009AAB2E /* HomeTopView.xib */,
+				BA2D6F811C7485B700AB6C94 /* HomeTopViewCell.xib */,
 				BA9504061C744BD1009AAB2E /* MenuTopView.xib */,
 				BA9504081C744BF4009AAB2E /* SettingTopView.xib */,
 				BA95040A1C744C0D009AAB2E /* LoginView.xib */,
@@ -170,6 +180,7 @@
 				BA9504161C744CD5009AAB2E /* QATopView.xib */,
 				BA9504181C744CE8009AAB2E /* InfoView.xib */,
 				BA95041A1C744CFF009AAB2E /* ReportTopView.xib */,
+				BA558B8A1C74825700CFF3E9 /* ReportTopViewCell.xib */,
 				BA95041C1C744D24009AAB2E /* ContactView.xib */,
 			);
 			name = View;
@@ -269,7 +280,9 @@
 				BA9504091C744BF4009AAB2E /* SettingTopView.xib in Resources */,
 				BA9504051C744B74009AAB2E /* HomeTopView.xib in Resources */,
 				BA95040B1C744C0D009AAB2E /* LoginView.xib in Resources */,
+				BA558B8B1C74825700CFF3E9 /* ReportTopViewCell.xib in Resources */,
 				BA95040F1C744C4B009AAB2E /* ItemCommentView.xib in Resources */,
+				BA2D6F821C7485B700AB6C94 /* HomeTopViewCell.xib in Resources */,
 				BA2C98DD1C743AFF003235F6 /* LaunchScreen.storyboard in Resources */,
 				BA95041D1C744D24009AAB2E /* ContactView.xib in Resources */,
 				BA9504151C744CAC009AAB2E /* MyNeedsPostListView.xib in Resources */,
@@ -298,6 +311,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA2C98D51C743AFF003235F6 /* ViewController.m in Sources */,
+				BA2D6F851C74878300AB6C94 /* HomeTopViewController.m in Sources */,
 				BA2C98D21C743AFF003235F6 /* AppDelegate.m in Sources */,
 				BA2C98CF1C743AFF003235F6 /* main.m in Sources */,
 			);
