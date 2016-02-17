@@ -1,18 +1,18 @@
 //
-//  HomeTopViewController.m
+//  LoginViewController.m
 //  yowbow
 //
-//  Created by oimosan on 2016/02/17.
+//  Created by oimosan on 2016/02/18.
 //  Copyright © 2016年 FBC. All rights reserved.
 //
 
-#import "HomeTopViewController.h"
+#import "LoginViewController.h"
 
-@interface HomeTopViewController ()
+@interface LoginViewController ()
 
 @end
 
-@implementation HomeTopViewController
+@implementation LoginViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

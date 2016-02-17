@@ -1,18 +1,18 @@
 //
-//  HomeTopViewController.m
+//  ItemCommentViewController.m
 //  yowbow
 //
-//  Created by oimosan on 2016/02/17.
+//  Created by oimosan on 2016/02/18.
 //  Copyright © 2016年 FBC. All rights reserved.
 //
 
-#import "HomeTopViewController.h"
+#import "ItemCommentViewController.h"
 
-@interface HomeTopViewController ()
+@interface ItemCommentViewController ()
 
 @end
 
-@implementation HomeTopViewController
+@implementation ItemCommentViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

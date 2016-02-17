@@ -1,18 +1,18 @@
 //
-//  HomeTopViewController.m
+//  NeedsPostConfViewController.m
 //  yowbow
 //
-//  Created by oimosan on 2016/02/17.
+//  Created by oimosan on 2016/02/18.
 //  Copyright © 2016年 FBC. All rights reserved.
 //
 
-#import "HomeTopViewController.h"
+#import "NeedsPostConfViewController.h"
 
-@interface HomeTopViewController ()
+@interface NeedsPostConfViewController ()
 
 @end
 
-@implementation HomeTopViewController
+@implementation NeedsPostConfViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

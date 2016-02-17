@@ -1,18 +1,18 @@
 //
-//  HomeTopViewController.m
+//  ItemViewController.m
 //  yowbow
 //
-//  Created by oimosan on 2016/02/17.
+//  Created by oimosan on 2016/02/18.
 //  Copyright © 2016年 FBC. All rights reserved.
 //
 
-#import "HomeTopViewController.h"
+#import "ItemViewController.h"
 
-@interface HomeTopViewController ()
+@interface ItemViewController ()
 
 @end
 
-@implementation HomeTopViewController
+@implementation ItemViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

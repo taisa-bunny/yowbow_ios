@@ -1,18 +1,18 @@
 //
-//  HomeTopViewController.m
+//  ContactViewController.m
 //  yowbow
 //
-//  Created by oimosan on 2016/02/17.
+//  Created by oimosan on 2016/02/18.
 //  Copyright © 2016年 FBC. All rights reserved.
 //
 
-#import "HomeTopViewController.h"
+#import "ContactViewController.h"
 
-@interface HomeTopViewController ()
+@interface ContactViewController ()
 
 @end
 
-@implementation HomeTopViewController
+@implementation ContactViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

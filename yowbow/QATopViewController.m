@@ -1,18 +1,18 @@
 //
-//  HomeTopViewController.m
+//  QATopViewController.m
 //  yowbow
 //
-//  Created by oimosan on 2016/02/17.
+//  Created by oimosan on 2016/02/18.
 //  Copyright © 2016年 FBC. All rights reserved.
 //
 
-#import "HomeTopViewController.h"
+#import "QATopViewController.h"
 
-@interface HomeTopViewController ()
+@interface QATopViewController ()
 
 @end
 
-@implementation HomeTopViewController
+@implementation QATopViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

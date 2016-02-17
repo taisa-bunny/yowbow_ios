@@ -1,18 +1,18 @@
 //
-//  HomeTopViewController.m
+//  ReportTopViewController.m
 //  yowbow
 //
-//  Created by oimosan on 2016/02/17.
+//  Created by oimosan on 2016/02/18.
 //  Copyright © 2016年 FBC. All rights reserved.
 //
 
-#import "HomeTopViewController.h"
+#import "ReportTopViewController.h"
 
-@interface HomeTopViewController ()
+@interface ReportTopViewController ()
 
 @end
 
-@implementation HomeTopViewController
+@implementation ReportTopViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

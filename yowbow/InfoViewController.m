@@ -1,18 +1,18 @@
 //
-//  HomeTopViewController.m
+//  InfoViewController.m
 //  yowbow
 //
-//  Created by oimosan on 2016/02/17.
+//  Created by oimosan on 2016/02/18.
 //  Copyright © 2016年 FBC. All rights reserved.
 //
 
-#import "HomeTopViewController.h"
+#import "InfoViewController.h"
 
-@interface HomeTopViewController ()
+@interface InfoViewController ()
 
 @end
 
-@implementation HomeTopViewController
+@implementation InfoViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
