@@ -2,7 +2,7 @@
 //  ViewController.m
 //  yowbow
 //
-//  Created by 図師ともみ on 2016/02/17.
+//  Created by oimosan on 2016/02/17.
 //  Copyright © 2016年 FBC. All rights reserved.
 //
 
