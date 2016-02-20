@@ -15,14 +15,6 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0hx-8u-dce">
-                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                    <items>
-                        <navigationItem title="投稿" id="UVh-g6-RA2">
-                            <barButtonItem key="rightBarButtonItem" title="Item" id="4WD-y5-JcU"/>
-                        </navigationItem>
-                    </items>
-                </navigationBar>
                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="bKm-8E-Ajn">
                     <rect key="frame" x="0.0" y="186" width="312" height="128"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -40,8 +32,26 @@
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wdG-Z7-Juu">
                     <rect key="frame" x="8" y="50" width="104" height="128"/>
                 </imageView>
+                <navigationBar contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QXS-k5-6MV">
+                    <rect key="frame" x="0.0" y="6" width="320" height="44"/>
+                    <items>
+                        <navigationItem title="投稿" id="lwW-x0-WP9">
+                            <barButtonItem key="leftBarButtonItem" title="戻る" id="4P8-iy-8ec">
+                                <connections>
+                                    <action selector="backHomeView:" destination="-1" id="zwD-jo-A8Y"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem key="rightBarButtonItem" title="確認" id="9TZ-aD-ow1"/>
+                        </navigationItem>
+                    </items>
+                </navigationBar>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="QXS-k5-6MV" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="L6X-RR-LtI"/>
+                <constraint firstAttribute="trailing" secondItem="QXS-k5-6MV" secondAttribute="trailing" id="gIN-9c-emV"/>
+                <constraint firstItem="QXS-k5-6MV" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="21" id="z82-Ub-AWD"/>
+            </constraints>
             <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
         </view>
     </objects>

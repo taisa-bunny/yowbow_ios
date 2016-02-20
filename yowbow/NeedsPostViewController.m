@@ -19,6 +19,13 @@
     // Do any additional setup after loading the view from its nib.
 }
 
+
+- (IBAction)backHomeView:(id)sender {
+    [self dismissViewControllerAnimated:YES completion:nil];
+    
+    
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
