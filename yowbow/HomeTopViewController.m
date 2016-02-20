@@ -7,6 +7,7 @@
 //
 
 #import "HomeTopViewController.h"
+#import "NeedsPostViewController.h"
 
 @interface HomeTopViewController ()
 
@@ -17,6 +18,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    }
+
+
+- (IBAction)NeedPostButton:(id)sender {
+    NeedsPostViewController * needsPost = [[NeedsPostViewController alloc] initWithNibName:@"NeedsPostViewController" bundle:nil];
+    [self presentViewController:needsPost animated:YES completion:nil];
+    
 }
 
 - (void)didReceiveMemoryWarning {

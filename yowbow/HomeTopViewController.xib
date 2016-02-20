@@ -15,23 +15,37 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="＋" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0M9-39-rRn">
-                    <rect key="frame" x="272" y="424.5" width="38" height="45.5"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="38"/>
-                    <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                    <nil key="highlightedColor"/>
-                </label>
-                <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BHA-g6-6hI">
-                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BHA-g6-6hI">
+                    <rect key="frame" x="0.0" y="21" width="320" height="44"/>
                     <items>
                         <navigationItem title="Yowbow" id="EmL-tG-dE5"/>
                     </items>
                 </navigationBar>
+                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sqR-FZ-d74">
+                    <rect key="frame" x="230" y="392" width="74" height="74"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="71"/>
+                    <state key="normal" title="➕">
+                        <color key="titleColor" red="1" green="0.67358626880000005" blue="0.47583550930000001" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="25"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="NeedPostButton:" destination="-1" eventType="touchUpInside" id="x8Y-IM-8cy"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstAttribute="trailing" secondItem="0M9-39-rRn" secondAttribute="trailing" constant="10" id="5ng-ge-aKy"/>
-                <constraint firstAttribute="bottom" secondItem="0M9-39-rRn" secondAttribute="bottom" constant="10" id="WMN-Gi-fJs"/>
+                <constraint firstItem="BHA-g6-6hI" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="4yA-JM-GL7"/>
+                <constraint firstAttribute="trailing" secondItem="BHA-g6-6hI" secondAttribute="trailing" id="A4Z-aA-zGn"/>
+                <constraint firstItem="BHA-g6-6hI" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="OIA-CS-9er"/>
+                <constraint firstItem="BHA-g6-6hI" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="21" id="erL-Oi-DjE"/>
+                <constraint firstAttribute="bottom" secondItem="sqR-FZ-d74" secondAttribute="bottom" constant="8" id="qUn-GA-j95"/>
+                <constraint firstAttribute="trailing" secondItem="sqR-FZ-d74" secondAttribute="trailing" constant="16" id="quR-78-3cw"/>
             </constraints>
             <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
         </view>
