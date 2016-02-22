@@ -15,8 +15,12 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ddp-nR-U4J">
-                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ddp-nR-U4J">
+                    <rect key="frame" x="0.0" y="21" width="320" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="320" id="0T9-jW-zdX"/>
+                        <constraint firstAttribute="height" constant="44" id="3oy-co-AbZ"/>
+                    </constraints>
                     <items>
                         <navigationItem title="投稿内容の確認" id="AOM-cA-4Rh">
                             <barButtonItem key="leftBarButtonItem" title="戻る" id="4by-oM-drC">
@@ -28,25 +32,50 @@
                         </navigationItem>
                     </items>
                 </navigationBar>
-                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="81e-Uw-vIf">
-                    <rect key="frame" x="8" y="170" width="304" height="128"/>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="81e-Uw-vIf">
+                    <rect key="frame" x="8" y="209" width="304" height="128"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="128" id="fRt-hk-dy9"/>
+                        <constraint firstAttribute="width" constant="304" id="kjb-VR-3iJ"/>
+                    </constraints>
+                    <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                 </textView>
-                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="JwF-uD-UJl">
-                    <rect key="frame" x="114" y="53" width="198" height="109"/>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                </textView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5wH-CF-0Vy">
-                    <rect key="frame" x="8" y="53" width="106" height="121"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5wH-CF-0Vy">
+                    <rect key="frame" x="8" y="73" width="104" height="128"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="128" id="77E-2J-N3t"/>
+                        <constraint firstAttribute="width" constant="104" id="LjV-qd-m2t"/>
+                    </constraints>
                 </imageView>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="JwF-uD-UJl">
+                    <rect key="frame" x="120" y="73" width="192" height="128"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="192" id="Q6Z-cy-f2i"/>
+                        <constraint firstAttribute="width" constant="192" id="UIU-sp-5Se"/>
+                        <constraint firstAttribute="height" constant="128" id="qid-Xx-7I1"/>
+                    </constraints>
+                    <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="JwF-uD-UJl" secondAttribute="trailing" constant="8" id="9f0-mA-6V8"/>
+                <constraint firstItem="5wH-CF-0Vy" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="RWV-7q-AMf"/>
+                <constraint firstItem="81e-Uw-vIf" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="VeM-9c-fY1"/>
+                <constraint firstAttribute="trailing" secondItem="Ddp-nR-U4J" secondAttribute="trailing" id="cjD-GK-w7y"/>
+                <constraint firstItem="Ddp-nR-U4J" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="21" id="deg-Uf-X06"/>
+                <constraint firstItem="JwF-uD-UJl" firstAttribute="top" secondItem="Ddp-nR-U4J" secondAttribute="bottom" constant="8" id="gBb-QZ-xLY"/>
+                <constraint firstAttribute="trailing" secondItem="81e-Uw-vIf" secondAttribute="trailing" constant="8" id="gva-nu-J1k"/>
+                <constraint firstItem="5wH-CF-0Vy" firstAttribute="top" secondItem="Ddp-nR-U4J" secondAttribute="bottom" constant="8" id="lOc-H9-OHF"/>
+                <constraint firstItem="81e-Uw-vIf" firstAttribute="top" secondItem="5wH-CF-0Vy" secondAttribute="bottom" constant="8" id="utA-X4-U46"/>
+                <constraint firstItem="Ddp-nR-U4J" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="xsH-bS-pPy"/>
+            </constraints>
             <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
         </view>
     </objects>

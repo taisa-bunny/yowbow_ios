@@ -21,8 +21,8 @@
                         <navigationItem title="Yowbow" id="EmL-tG-dE5"/>
                     </items>
                 </navigationBar>
-                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sqR-FZ-d74">
-                    <rect key="frame" x="230" y="392" width="74" height="74"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sqR-FZ-d74">
+                    <rect key="frame" x="233" y="375" width="71" height="97"/>
                     <fontDescription key="fontDescription" type="system" pointSize="71"/>
                     <state key="normal" title="➕">
                         <color key="titleColor" red="1" green="0.67358626880000005" blue="0.47583550930000001" alpha="1" colorSpace="calibratedRGB"/>

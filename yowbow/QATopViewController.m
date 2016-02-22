@@ -21,8 +21,8 @@
     
 //Q&Aページの表示
     NSString* urlString = @"http://moecore.com/";
-    NSURL* moecoreURL = [NSURL URLWithString: urlString];
-    NSURLRequest* myRequest = [NSURLRequest requestWithURL:moecoreURL];
+    NSURL* QAURL = [NSURL URLWithString: urlString];
+    NSURLRequest* myRequest = [NSURLRequest requestWithURL:QAURL];
     [self.QAwebView loadRequest:myRequest];
     
 }
