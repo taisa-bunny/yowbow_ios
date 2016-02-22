@@ -19,8 +19,12 @@
                     <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                     <items>
                         <navigationItem title="投稿内容の確認" id="AOM-cA-4Rh">
-                            <barButtonItem key="leftBarButtonItem" title="Item" id="4by-oM-drC"/>
-                            <barButtonItem key="rightBarButtonItem" title="Item" id="SLR-vJ-5DM"/>
+                            <barButtonItem key="leftBarButtonItem" title="戻る" id="4by-oM-drC">
+                                <connections>
+                                    <action selector="backNeedsPostBtn:" destination="-1" id="1Kw-SI-vKF"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem key="rightBarButtonItem" title="投稿" id="SLR-vJ-5DM"/>
                         </navigationItem>
                     </items>
                 </navigationBar>

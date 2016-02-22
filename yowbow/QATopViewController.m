@@ -17,6 +17,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    
+    
+//Q&Aページの表示
+    NSString* urlString = @"http://moecore.com/";
+    NSURL* moecoreURL = [NSURL URLWithString: urlString];
+    NSURLRequest* myRequest = [NSURLRequest requestWithURL:moecoreURL];
+    [self.QAwebView loadRequest:myRequest];
+    
 }
 
 - (void)didReceiveMemoryWarning {

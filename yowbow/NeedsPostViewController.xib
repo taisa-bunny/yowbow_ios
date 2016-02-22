@@ -41,7 +41,11 @@
                                     <action selector="backHomeView:" destination="-1" id="zwD-jo-A8Y"/>
                                 </connections>
                             </barButtonItem>
-                            <barButtonItem key="rightBarButtonItem" title="確認" id="9TZ-aD-ow1"/>
+                            <barButtonItem key="rightBarButtonItem" title="確認" id="9TZ-aD-ow1">
+                                <connections>
+                                    <action selector="btnConfView:" destination="-1" id="d6b-g3-MLJ"/>
+                                </connections>
+                            </barButtonItem>
                         </navigationItem>
                     </items>
                 </navigationBar>

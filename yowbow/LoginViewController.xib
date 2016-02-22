@@ -18,7 +18,9 @@
                 <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SBg-d1-fem">
                     <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                     <items>
-                        <navigationItem title="ログイン" id="3S6-wG-aBu"/>
+                        <navigationItem title="ログイン" id="3S6-wG-aBu">
+                            <barButtonItem key="leftBarButtonItem" title="戻る" id="SaC-9j-k20"/>
+                        </navigationItem>
                     </items>
                 </navigationBar>
                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="paB-nt-PoL">

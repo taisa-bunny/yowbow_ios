@@ -22,7 +22,9 @@
                 <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1z2-kT-hj8">
                     <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                     <items>
-                        <navigationItem title="Setting" id="eEl-et-Gnb"/>
+                        <navigationItem title="Setting" id="eEl-et-Gnb">
+                            <barButtonItem key="leftBarButtonItem" title="戻る" id="q9v-Q6-kmy"/>
+                        </navigationItem>
                     </items>
                 </navigationBar>
             </subviews>

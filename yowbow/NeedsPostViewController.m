@@ -7,7 +7,7 @@
 //
 
 #import "NeedsPostViewController.h"
-
+#import "NeedsPostConfViewController.h"
 @interface NeedsPostViewController ()
 
 @end
@@ -19,7 +19,14 @@
     // Do any additional setup after loading the view from its nib.
 }
 
+//投稿確認画面へ遷移
+- (IBAction)btnConfView:(id)sender {
+    NeedsPostConfViewController * needsPostConf = [[NeedsPostConfViewController alloc]initWithNibName:@"NeedsPostConfViewController" bundle:nil];
+    [self presentViewController:needsPostConf animated:YES completion:nil];
+    
+}
 
+//ホーム画面に戻る
 - (IBAction)backHomeView:(id)sender {
     [self dismissViewControllerAnimated:YES completion:nil];
     

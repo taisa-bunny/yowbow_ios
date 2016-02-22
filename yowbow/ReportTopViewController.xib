@@ -18,17 +18,19 @@
                 <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="818-Hu-hPB">
                     <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                     <items>
-                        <navigationItem title="YowBowレポート" id="ire-F5-T22"/>
+                        <navigationItem title="YowBowレポート" id="ire-F5-T22">
+                            <barButtonItem key="leftBarButtonItem" title="戻る" id="3Qm-5j-DNv"/>
+                        </navigationItem>
                     </items>
                 </navigationBar>
                 <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" selectionStyle="default" indentationWidth="10" rowHeight="103" translatesAutoresizingMaskIntoConstraints="NO" id="s0X-VL-u9M">
                     <rect key="frame" x="0.0" y="44" width="320" height="103"/>
                     <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="s0X-VL-u9M" id="rmf-pk-ncX">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="102.5"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="102"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xFy-zV-9QC">
-                                <rect key="frame" x="8" y="8" width="71" height="86.5"/>
+                                <rect key="frame" x="8" y="8" width="71" height="87"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R4h-bB-hi7">
                                 <rect key="frame" x="87" y="13" width="42" height="21"/>

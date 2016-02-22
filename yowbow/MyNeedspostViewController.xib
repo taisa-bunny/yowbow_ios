@@ -18,17 +18,19 @@
                 <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Reb-Gu-Q9e">
                     <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                     <items>
-                        <navigationItem title="投稿履歴" id="LVv-fB-Bgc"/>
+                        <navigationItem title="投稿履歴" id="LVv-fB-Bgc">
+                            <barButtonItem key="leftBarButtonItem" title="戻る" id="0Vw-pO-Zns"/>
+                        </navigationItem>
                     </items>
                 </navigationBar>
                 <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" selectionStyle="default" indentationWidth="10" rowHeight="109" translatesAutoresizingMaskIntoConstraints="NO" id="N7O-ld-jPd">
                     <rect key="frame" x="0.0" y="44" width="320" height="109"/>
                     <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="N7O-ld-jPd" id="gTD-Di-Dh4">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="108.5"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="108"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ekB-qD-Czn">
-                                <rect key="frame" x="8" y="8" width="80" height="92.5"/>
+                                <rect key="frame" x="8" y="8" width="80" height="93"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="21L-ba-pvx">
                                 <rect key="frame" x="96" y="8" width="42" height="21"/>
@@ -43,7 +45,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="CKN-mM-U1N">
-                                <rect key="frame" x="96" y="62" width="216" height="38.5"/>
+                                <rect key="frame" x="96" y="62" width="216" height="39"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -53,7 +55,7 @@
                     </tableViewCellContentView>
                 </tableViewCell>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="＋" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oMb-YM-xI1">
-                    <rect key="frame" x="274" y="421" width="38" height="45.5"/>
+                    <rect key="frame" x="274" y="421" width="38" height="46"/>
                     <fontDescription key="fontDescription" type="system" pointSize="38"/>
                     <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>

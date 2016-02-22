@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface QATopViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIWebView *QAwebView;
 
 @end

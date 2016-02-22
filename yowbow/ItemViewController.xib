@@ -18,17 +18,19 @@
                 <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jad-Nh-eWt">
                     <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                     <items>
-                        <navigationItem title="要望リスト" id="T1C-ZV-F0S"/>
+                        <navigationItem title="要望リスト" id="T1C-ZV-F0S">
+                            <barButtonItem key="leftBarButtonItem" title="戻る" id="ak2-0k-7Vy"/>
+                        </navigationItem>
                     </items>
                 </navigationBar>
                 <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" selectionStyle="default" indentationWidth="10" rowHeight="131" translatesAutoresizingMaskIntoConstraints="NO" id="alu-0y-xiz">
                     <rect key="frame" x="-8" y="44" width="320" height="131"/>
                     <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="alu-0y-xiz" id="aHR-Xz-3h4">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="130.5"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="130"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1Z8-0O-4xm">
-                                <rect key="frame" x="8" y="8" width="97" height="114.5"/>
+                                <rect key="frame" x="8" y="8" width="97" height="115"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aYC-7L-AnX">
                                 <rect key="frame" x="113" y="13" width="42" height="21"/>
@@ -70,7 +72,7 @@
                 <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" selectionStyle="default" indentationWidth="10" rowHeight="52" translatesAutoresizingMaskIntoConstraints="NO" id="cv3-1D-abk">
                     <rect key="frame" x="0.0" y="183" width="320" height="52"/>
                     <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="cv3-1D-abk" id="ZDB-kK-Ryp">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="51.5"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="51"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pbd-K4-0bg">
@@ -92,7 +94,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="j5C-X3-6wR">
-                                <rect key="frame" x="219" y="8" width="42" height="35.5"/>
+                                <rect key="frame" x="219" y="8" width="42" height="36"/>
                             </imageView>
                         </subviews>
                     </tableViewCellContentView>

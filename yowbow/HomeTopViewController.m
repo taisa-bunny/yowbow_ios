@@ -21,6 +21,7 @@
     }
 
 
+//投稿画面に遷移
 - (IBAction)NeedPostButton:(id)sender {
     NeedsPostViewController * needsPost = [[NeedsPostViewController alloc] initWithNibName:@"NeedsPostViewController" bundle:nil];
     [self presentViewController:needsPost animated:YES completion:nil];
