@@ -1,0 +1,56 @@
+//
+//  yowbow-Prefix.pch
+//  yowbow
+//
+//  Created by oimosan on 2016/02/26.
+//  Copyright © 2016年 FBC. All rights reserved.
+//
+
+#ifndef yowbow_Prefix_h
+#define yowbow_Prefix_h
+
+
+
+#define REACHABILITY_HOST       @"" // テストサーバ
+//#define REACHABILITY_HOST       @"" // 本番サーバ
+#define BASE_URL                @"https://" REACHABILITY_HOST @"/"
+
+
+// 基本API
+#define API_GET_VERSION         BASE_URL @"api/xxx/.json" // バージョン確認
+#define API_GET_SESSION         BASE_URL @"api/xxx/.json" // セッション
+#define API_UPDATE_DEVICES      BASE_URL @"api/xxx/.json" // デバイス情報更新
+#define API_GET_MASTER          BASE_URL @"api/xxx/.json" // マスタを取得
+#define API_LOGOUT              BASE_URL @"api/user/logout.json" // ログアウト
+
+// リスト取得
+#define API_GET_HOME_LIST       BASE_URL @"api/home/home_top.json" // ホーム
+
+// ランキング
+
+// 検索
+
+// 投稿/更新
+
+// お問い合わせ
+
+// WEBビュー
+
+// font
+
+// color
+
+// 文言
+#define MSG_ERROR           @"システムエラーが発生しました。"
+#define MSG_TIMEOUT         @"タイムアウトしました"
+#define MSG_REQUEST_ERROR   @"通信エラー"
+
+// response code
+#define STATUS_CODE_OK              200
+#define STATUS_CODE_PARAM_NG        400
+#define RESPONSE_CODE_OK            @"000"
+
+// 検索タイプ
+
+
+#endif

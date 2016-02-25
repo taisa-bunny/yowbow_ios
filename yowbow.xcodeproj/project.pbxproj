@@ -52,6 +52,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BA4AE0641C7F58F0008DFDFE /* yowbow-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "yowbow-Prefix.pch"; sourceTree = "<group>"; };
 		BA8DB0381C74C1EC008A7E84 /* yowbow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yowbow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA8DB03C1C74C1EC008A7E84 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BA8DB03E1C74C1EC008A7E84 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -162,6 +163,7 @@
 			children = (
 				BA8DB04C1C74C1EC008A7E84 /* Info.plist */,
 				BA8DB03C1C74C1EC008A7E84 /* main.m */,
+				BA4AE0641C7F58F0008DFDFE /* yowbow-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
