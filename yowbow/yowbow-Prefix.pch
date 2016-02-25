@@ -2,7 +2,7 @@
 //  yowbow-Prefix.pch
 //  yowbow
 //
-//  Created by 図師ともみ on 2016/02/26.
+//  Created by oimosan on 2016/02/26.
 //  Copyright © 2016年 FBC. All rights reserved.
 //
 
@@ -11,9 +11,9 @@
 
 
 
-#define BASE_URL                @"https://" REACHABILITY_HOST @"/"
 #define REACHABILITY_HOST       @"" // テストサーバ
 //#define REACHABILITY_HOST       @"" // 本番サーバ
+#define BASE_URL                @"https://" REACHABILITY_HOST @"/"
 
 
 // 基本API
@@ -33,18 +33,12 @@
 // 投稿/更新
 
 // お問い合わせ
-#define API_CONTACT BASE_URL @"api/xxx/inquiry.json"
 
 // WEBビュー
-#define WEB_PRIVACY         WEB_BASE_URL @"webview/privacy"// プライバシーポリシー
-#define WEB_TOS             WEB_BASE_URL @"webview/tos"// 利用規約
-#define WEB_FORGET_LOGINID  WEB_BASE_URL @"webview/help#forget_id" // ログインIDを忘れた方はコチラ
 
 // font
-#define FONT_BASE [UIFont systemFontOfSize:14]
 
 // color
-#define COLOR_BASE         [UIColor colorWithRed:0.000 green:0.698 blue:0.792 alpha:1.0] // #00b2ca
 
 // 文言
 #define MSG_ERROR           @"システムエラーが発生しました。"
@@ -55,9 +49,6 @@
 #define STATUS_CODE_OK              200
 #define STATUS_CODE_PARAM_NG        400
 #define RESPONSE_CODE_OK            @"000"
-#define RESPONSE_CODE_SESSION_ERROR @"405" // セッション切れ
-#define RESPONSE_CODE_BACK          @"900" // ひとつ前の画面にもどる
-#define RESPONSE_CODE_WAITING       @"100" // 機械チェックNG
 
 // 検索タイプ
 

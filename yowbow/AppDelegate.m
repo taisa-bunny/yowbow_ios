@@ -26,43 +26,6 @@
     // ホーム画面に遷移
     self.window.rootViewController = homeTopViewController;
     
-/**
-* 初回起動のみチュートリアルを表示 sample
-*/
-//    if ([userDefaults boolForKey:IS_DONE_FIRST_APP_EX] == NO) {
-//        [userDefaults setBool:YES forKey:IS_DONE_FIRST_APP_EX];
-//        [userDefaults synchronize];
-//        [self initFirstView];
-//    }
-//    
-//    // 一番上に
-//    [self.window bringSubviewToFront:exScrollView];
-//    
-//    // ログイン確認
-//    // ここでログインフラグを一旦NOにする
-//    [userDefaults setBool:NO forKey:IS_LOGIN];
-//    [userDefaults synchronize];
-//    if ([userDefaults stringForKey:LOGIN_ID] == nil || [[userDefaults stringForKey:LOGIN_ID] isEqualToString:@""] == YES
-//        || [userDefaults stringForKey:LOGIN_PW] == nil || [[userDefaults stringForKey:LOGIN_PW] isEqualToString:@""] == YES) {
-//        
-//        // 自動ログイン
-//    } else {
-//        [AuthFunction login:[AuthFunction decryptString:[userDefaults stringForKey:LOGIN_ID]]
-//                   password:[AuthFunction decryptString:[userDefaults stringForKey:LOGIN_PW]]
-//                     isAuto:YES
-//                 completion:^(NSInteger statusCode, NSDictionary *responseDictionary) {
-//                     // マイページタブのバッジを更新
-//                     [self setMyBadge:numberFormat(responseDictionary[PARAM_MY_BADGE_COUNT])];
-//                     
-//                     // マイページTOPを更新
-//                     UINavigationController *navigationController = self.tabBarController.viewControllers[4];
-//                     id delegate = navigationController.topViewController;
-//                     if ([delegate respondsToSelector:@selector(didCompleteLogin)]) {
-//                         [delegate didCompleteLogin];
-//                     }
-//                     
-//                 } failure:^(NSString *code) {}];
-//    }
     
     return YES;
 }
